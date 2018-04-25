@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { View, Text, ScrollView, FlatList, StyleSheet, KeyboardAvoidingView, Platform } from 'react-native';
-import { Button, Input, Icon, List, ListItem } from 'react-native-elements';
+import { Avatar, Button, Input, Icon, List, ListItem } from 'react-native-elements';
 import { MaterialCommunityIcons } from 'react-native-vector-icons'
 import firebase from 'react-native-firebase';
+import { GoogleSignin } from 'react-native-google-signin';
+
 import { timeSince } from '../../utils/timeSince'
 
 
@@ -19,6 +21,7 @@ export default class ChatList extends Component {
 
     this.unsubscribe = null;
     this.state = {
+      user: null,
       messageInput: '',
       loading: true,
       chats: [],
@@ -26,7 +29,11 @@ export default class ChatList extends Component {
   }
 
   componentDidMount() {
-    this.unsubscribe = this.ref.orderBy('createdAt', 'asc').onSnapshot(this.onCollectionUpdate)
+    GoogleSignin.currentUserAsync().then((user) => {
+      console.log('USER-ChatList:', user);
+      this.setState({ user: user });
+    }).done()
+    this.unsubscribe = this.ref.orderBy('createdAt', 'desc').onSnapshot(this.onCollectionUpdate)
     // firebase.auth().onAuthStateChanged(user => {
     //   if (user) {
     //     this.FCM.requestPermission()
@@ -52,7 +59,7 @@ export default class ChatList extends Component {
   //       const sessionId = new Date().getTime()
   //       let uploadBlob = null
   //       const imageRef = storage.ref('images').child(`${sessionId}`)
-  
+
   //       fs.readFile(uploadUri, 'base64')
   //       .then((data) => {
   //         return Blob.build(data, { type: `${mime};BASE64` })
@@ -78,7 +85,7 @@ export default class ChatList extends Component {
     const chats = [];
     querySnapshot.forEach((doc) => {
       const { message, createdAt } = doc.data();
-      console.log("MESSAGE-TEST:", message)
+      console.log("MESSAGE-TEST:", this.state.user)
       const time = timeSince(createdAt)
       chats.push({
         key: doc.id,
@@ -109,16 +116,26 @@ export default class ChatList extends Component {
 
   renderMessage = ({ item }) => {
     return (
-      <View style={styles.messageList} >
-        <Icon
-          name='account-circle'
-          type='material-community'
-          color='black'
-        />
-        <Text style={styles.message}>
-          {item.message}
-        </Text>
+      <View style={{ flex: 1 }}>
+
+        <View style={styles.messageList}>
+          <Avatar
+            small
+            rounded
+            title="S"
+          />
+          <View style={styles.messageContainer}>
+            <Text style={styles.message}>
+              {item.message}
+            </Text>
+            <Text>
+              {this.state.user && this.state.user.name}
+            </Text>
+          </View>
+        </View>
+
       </View>
+
     )
   }
 
@@ -126,14 +143,15 @@ export default class ChatList extends Component {
     // console.log("Message-List:", this.state.chats)
     return (
       <View style={styles.container}>
-          <FlatList style={{ flex: 1 }}
-            data={this.state.chats}
-            keyExtractor={(item, index) => index}
-            renderItem={({ item, index }) => this.renderMessage({ item })}
-          />
+        <FlatList style={{ flex: 1 }}
+          inverted
+          data={this.state.chats}
+          keyExtractor={(item, index) => index}
+          renderItem={({ item, index }) => this.renderMessage({ item })}
+        />
         <View style={styles.inputContainer}>
           <Input
-            placeholder='Message'
+            placeholder='Type a message'
             value={this.state.messageInput}
             onChangeText={(text) => this.updateMessageInput(text)}
           />
@@ -141,7 +159,7 @@ export default class ChatList extends Component {
             name='send'
             type='material-community'
             color='black'
-            // disabled={!this.state.messageInput.length}
+            disabled={!this.state.messageInput.length}
             onPress={() => { this.sendMessage() }}
           />
         </View>
@@ -159,22 +177,36 @@ const styles = StyleSheet.create({
   inputContainer: {
     flexDirection: 'row',
     justifyContent: 'center',
-    alignItems: 'flex-end',
+    alignItems: 'center',
+    backgroundColor: '#FFF',
+    paddingTop: 10,
   },
   messageList: {
     flex: 1,
     flexDirection: 'row',
-    justifyContent: 'flex-start',
+    justifyContent: 'center',
     backgroundColor: '#FFFFFF',
+    marginHorizontal: 5,
     paddingTop: 10,
     flexWrap: 'wrap',
   },
+  messageContainer: {
+    flex: 1,
+    fontSize: 16,
+    fontFamily: 'Roboto',
+    marginLeft: 5,
+    padding: 5,
+    flexWrap: 'wrap',
+    backgroundColor: '#EEEEEE',
+    borderRadius: 5,
+  },
   message: {
     flex: 1,
-    justifyContent: 'flex-start',
-    alignItems: 'flex-start',
-    fontSize: 14,
-    paddingLeft: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+    fontSize: 16,
+    fontFamily: 'Roboto',
+    paddingBottom: 10,
     flexWrap: 'wrap',
   }
 });

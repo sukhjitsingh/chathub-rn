@@ -1,11 +1,27 @@
 import React, { Component } from 'react';
-import { Platform, StyleSheet, Text, View } from 'react-native';
+import { Platform, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { Button } from 'react-native-elements';
 import { GoogleSignin } from 'react-native-google-signin';
 
 import ChatList from '../components/chats/ChatList'
 
 export default class HomeScreen extends Component {
+
+  static navigationOptions = ({ navigation }) => {
+    const params = navigation.state.params || {};
+
+    return {
+      headerTitle: 'Messages',
+      headerRight: (
+        <TouchableOpacity >
+          <Text style={{ marginRight: 20, fontWeight: 'bold' }}
+            onPress={() => params._onGoogleSignOut()}>
+            Logout
+          </Text>
+        </TouchableOpacity>
+      )
+    }
+  }
 
   constructor(props) {
     super(props);
@@ -17,6 +33,7 @@ export default class HomeScreen extends Component {
   }
 
   componentDidMount() {
+    this.props.navigation.setParams({ _onGoogleSignOut: this._onGoogleSignOut });
     GoogleSignin.currentUserAsync().then((user) => {
       console.log('USER-HOMESCREEN-ASYNC:', user);
       this.setState({ user: user });
@@ -39,13 +56,6 @@ export default class HomeScreen extends Component {
     return (
       <View style={styles.container}>
         <ChatList />
-        <Button
-          title='Logout'
-          buttonStyle={{
-            paddingHorizontal: 5
-          }}
-          onPress={() => this._onGoogleSignOut()}
-        />
       </View>
     );
   }
@@ -57,15 +67,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
   },
 });

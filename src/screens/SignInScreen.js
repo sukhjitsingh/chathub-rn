@@ -5,6 +5,9 @@ import { GoogleSignin, GoogleSigninButton } from 'react-native-google-signin';
 
 
 export default class SignInScreen extends Component {
+  static navigationOptions = {
+    title: 'Sign-in',
+  };
 
   _onGoogleSignIn = () => {
     GoogleSignin.hasPlayServices({ autoResolve: true }).then(() => {
