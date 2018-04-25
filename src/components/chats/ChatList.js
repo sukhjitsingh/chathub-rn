@@ -143,7 +143,7 @@ export default class ChatList extends Component {
     // console.log("Message-List:", this.state.chats)
     return (
       <View style={styles.container}>
-        <FlatList style={{ flex: 1 }}
+        <FlatList
           inverted
           data={this.state.chats}
           keyExtractor={(item, index) => index}
@@ -192,8 +192,6 @@ const styles = StyleSheet.create({
   },
   messageContainer: {
     flex: 1,
-    fontSize: 16,
-    fontFamily: 'Roboto',
     marginLeft: 5,
     padding: 5,
     flexWrap: 'wrap',

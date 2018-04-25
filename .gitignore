@@ -4,3 +4,6 @@ npm-debug.*
 # misc
 .DS_Store
 .vscode
+
+android/.idea/**/*
+android/.gradle/**/*

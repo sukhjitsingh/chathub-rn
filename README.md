@@ -13,7 +13,6 @@ $ cd chathub-rn
 $ npm install 
 
 $ react-native run-android
-
 ```
 
 ## Detailed Guide: 
@@ -31,7 +30,7 @@ $ npm install -g react-native-cli
 
 #### Java Development Kit
 
-React Native requires a recent version of the Java SE Development Kit (JDK). [Download and install JDK 8 or newer](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) if needed.
+React Native requires a recent version of the Java SE Development Kit (JDK). [Download and install JDK 8 or newer](http://www.oracle.com/technetwork/java/javase/downloads/index.html) if needed.
 
 ### Android development environment
 
@@ -52,14 +51,17 @@ Once setup has finalized and you're presented with the Welcome screen, proceed t
 
 The SDK Manager can be accessed from the "Welcome to Android Studio" screen. Click on "Configure", then select "SDK Manager".
 
-Select the "SDK Platforms" tab from within the SDK Manager, then check the box next to "Show Package Details" in the bottom right corner. Look for and expand the `Android 6.0 (Marshmallow)` entry, then make sure the following items are all checked:
+Select the "SDK Platforms" tab from within the SDK Manager, then check the box next to "Show Package Details" in the bottom right corner. Look for and expand the `Android 8.1 (Oreo)` entry, then make sure the following items are all checked:
 
->- Google APIs
->- Android SDK Platform 23
->- Intel x86 Atom_64 System Image
->- Google APIs Intel x86 Atom_64 System Image
+>- Android SDK Platform 27
+>- Google APIs Intel x86 Atom System Image
+>- Google Play Intel x86 Atom System Image
 
-Next, select the "SDK Tools" tab and check the box next to "Show Package Details" here as well. Look for and expand the "Android SDK Build-Tools" entry, then make sure that 23.0.1 is selected.
+Next, select the "SDK Tools" tab and check the box next to "Show Package Details" here as well. 
+
+Look for and expand the "Android SDK Build-Tools" entry, then make sure that `27.0.3` is selected.
+
+Also, here you check to see if `Intel x86 Emulator Accelerator (HAXM Installer)` is selected as well.
 
 Finally, click "Apply" to download and install the Android SDK and related build tools.
 
@@ -103,6 +105,20 @@ Seeing `device` in the right column means the device is connected. You must have
 > $ react-native run-android
 
 #### Using a virtual device
+
+1. Start Android Studio using the `android` folder inside the project folder
+
+2. Open the AVD Manager by clicking on **Tools → AVD Manager**, then clicking on Create Virtual Device bottom left corner. 
+
+3. Select a device definition and click "Next"
+
+4. Select a system image (Oreo), click "Next" then 'Finish"
+
+<div style={{display: flex; flex-direction: row}}>
+  <img src="screenshots/selectHardware.png" width="270" />
+  <img src="screenshots/selectSystemImage.png" width="270" />
+  <img src="screenshots/verifyConfiguration.png" width="270" />
+</div>
 
 ## Feedback
 

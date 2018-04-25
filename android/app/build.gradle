@@ -99,7 +99,7 @@ android {
 
     defaultConfig {
         applicationId "com.chathub"
-        minSdkVersion 21
+        minSdkVersion 23
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
@@ -161,13 +161,13 @@ def var = dependencies {
 
 
     // Firebase dependencies
-    implementation "com.google.android.gms:play-services-base:15.0.0"
-    implementation "com.google.android.gms:play-services-auth:15.0.0"
+    implementation "com.google.android.gms:play-services-base:12.0.0"
+    implementation "com.google.android.gms:play-services-auth:12.0.0"
 
-    implementation "com.google.firebase:firebase-core:15.0.0"
-    implementation "com.google.firebase:firebase-auth:15.0.0"
-    implementation "com.google.firebase:firebase-firestore:15.0.0"
-    implementation "com.google.firebase:firebase-messaging:15.0.0"
+    implementation "com.google.firebase:firebase-core:12.0.0"
+    implementation "com.google.firebase:firebase-auth:12.0.0"
+    implementation "com.google.firebase:firebase-firestore:12.0.0"
+    implementation "com.google.firebase:firebase-messaging:12.0.0"
 }
 var
 
