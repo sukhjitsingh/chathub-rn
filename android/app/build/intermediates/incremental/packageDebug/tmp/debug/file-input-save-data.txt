@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Apr 21 22:54:40 PDT 2018
+#Tue Apr 24 20:59:03 PDT 2018
 23.set=NATIVE_RESOURCE
 31.set=ASSET
 33.base=/Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/build/intermediates/transforms/mergeJniLibs/debug/0

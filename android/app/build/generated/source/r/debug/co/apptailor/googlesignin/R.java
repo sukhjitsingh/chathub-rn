@@ -112,7 +112,6 @@ public final class R {
         public static final int contentInsetRight = 0x7f01001a;
         public static final int contentInsetStart = 0x7f010017;
         public static final int controlBackground = 0x7f0100d7;
-        public static final int coordinatorLayoutStyle = 0x7f010000;
         public static final int customNavigationLayout = 0x7f010010;
         public static final int defaultQueryHint = 0x7f01006a;
         public static final int dialogPreferredPadding = 0x7f0100a9;
@@ -157,14 +156,7 @@ public final class R {
         public static final int initialActivityCount = 0x7f01001e;
         public static final int isLightTheme = 0x7f010003;
         public static final int itemPadding = 0x7f010015;
-        public static final int keylines = 0x7f010028;
         public static final int layout = 0x7f010067;
-        public static final int layout_anchor = 0x7f01002b;
-        public static final int layout_anchorGravity = 0x7f01002d;
-        public static final int layout_behavior = 0x7f01002a;
-        public static final int layout_dodgeInsetEdges = 0x7f01002f;
-        public static final int layout_insetEdge = 0x7f01002e;
-        public static final int layout_keyline = 0x7f01002c;
         public static final int listChoiceBackgroundIndicator = 0x7f0100ce;
         public static final int listDividerAlertDialog = 0x7f0100aa;
         public static final int listItemLayout = 0x7f010024;
@@ -233,7 +225,6 @@ public final class R {
         public static final int spinnerStyle = 0x7f0100e8;
         public static final int splitTrack = 0x7f01007e;
         public static final int state_above_anchor = 0x7f010066;
-        public static final int statusBarBackground = 0x7f010029;
         public static final int submitBackground = 0x7f010073;
         public static final int subtitle = 0x7f010007;
         public static final int subtitleTextAppearance = 0x7f0100eb;
@@ -594,7 +585,6 @@ public final class R {
         public static final int auto = 0x7f0d0046;
         public static final int beginning = 0x7f0d003a;
         public static final int blocking = 0x7f0d0030;
-        public static final int bottom = 0x7f0d0020;
         public static final int buttonPanel = 0x7f0d005c;
         public static final int cancel_action = 0x7f0d007a;
         public static final int catalyst_redbox_title = 0x7f0d008b;
@@ -632,7 +622,6 @@ public final class R {
         public static final int image = 0x7f0d004f;
         public static final int info = 0x7f0d0083;
         public static final int italic = 0x7f0d0032;
-        public static final int left = 0x7f0d002a;
         public static final int light = 0x7f0d0048;
         public static final int line1 = 0x7f0d0005;
         public static final int line3 = 0x7f0d0006;
@@ -652,7 +641,6 @@ public final class R {
         public static final int progress_horizontal = 0x7f0d0008;
         public static final int radio = 0x7f0d0060;
         public static final int react_test_id = 0x7f0d0009;
-        public static final int right = 0x7f0d002b;
         public static final int right_icon = 0x7f0d0087;
         public static final int right_side = 0x7f0d0080;
         public static final int rn_frame_file = 0x7f0d008a;
@@ -687,18 +675,15 @@ public final class R {
         public static final int src_in = 0x7f0d001e;
         public static final int src_over = 0x7f0d001f;
         public static final int standard = 0x7f0d0044;
-        public static final int start = 0x7f0d002c;
         public static final int status_bar_latest_event_content = 0x7f0d007b;
         public static final int submit_area = 0x7f0d0071;
         public static final int tabMode = 0x7f0d0013;
-        public static final int tag_transition_group = 0x7f0d000b;
         public static final int text = 0x7f0d000c;
         public static final int text2 = 0x7f0d000d;
         public static final int textSpacerNoButtons = 0x7f0d0059;
         public static final int time = 0x7f0d0081;
         public static final int title = 0x7f0d000e;
         public static final int title_template = 0x7f0d0055;
-        public static final int top = 0x7f0d002d;
         public static final int topPanel = 0x7f0d0054;
         public static final int up = 0x7f0d000f;
         public static final int useLogo = 0x7f0d001a;
@@ -1162,7 +1147,6 @@ public final class R {
         public static final int Widget_AppCompat_Toolbar_Button_Navigation = 0x7f09014d;
         public static final int Widget_Compat_NotificationActionContainer = 0x7f09007c;
         public static final int Widget_Compat_NotificationActionText = 0x7f09007d;
-        public static final int Widget_Support_CoordinatorLayout = 0x7f09014e;
         public static final int redboxButton = 0x7f09014f;
     }
     public static final class styleable {
@@ -1222,17 +1206,6 @@ public final class R {
         public static final int CompoundButton_android_button = 0;
         public static final int CompoundButton_buttonTint = 1;
         public static final int CompoundButton_buttonTintMode = 2;
-        public static final int[] CoordinatorLayout = { 0x7f010028, 0x7f010029 };
-        public static final int CoordinatorLayout_keylines = 0;
-        public static final int CoordinatorLayout_statusBarBackground = 1;
-        public static final int[] CoordinatorLayout_Layout = { 0x010100b3, 0x7f01002a, 0x7f01002b, 0x7f01002c, 0x7f01002d, 0x7f01002e, 0x7f01002f };
-        public static final int CoordinatorLayout_Layout_android_layout_gravity = 0;
-        public static final int CoordinatorLayout_Layout_layout_behavior = 1;
-        public static final int CoordinatorLayout_Layout_layout_anchor = 2;
-        public static final int CoordinatorLayout_Layout_layout_keyline = 3;
-        public static final int CoordinatorLayout_Layout_layout_anchorGravity = 4;
-        public static final int CoordinatorLayout_Layout_layout_insetEdge = 5;
-        public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges = 6;
         public static final int[] DrawerArrowToggle = { 0x7f010030, 0x7f010031, 0x7f010032, 0x7f010033, 0x7f010034, 0x7f010035, 0x7f010036, 0x7f010037 };
         public static final int DrawerArrowToggle_color = 0;
         public static final int DrawerArrowToggle_spinBars = 1;

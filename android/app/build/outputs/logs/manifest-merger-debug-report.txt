@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-36:12
-INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-36:12
-INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-36:12
-INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-36:12
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-42:12
+INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-42:12
+INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-42:12
+INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-42:12
 MERGED from [:react-native-firebase] /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-13:12
 MERGED from [:react-native-google-signin] /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/node_modules/react-native-google-signin/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
@@ -39,28 +39,28 @@ MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/moni/.gradl
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/250d1cecf615284209eb186c7670f4a6/AndroidManifest.xml:1:1-4:12
 MERGED from [org.webkit:android-jsc:r174650] /Users/moni/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/7c48ccee71da22a0da0b78cc133fe352/AndroidManifest.xml:1:1-3:12
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.0.aar/f5f089ad12541504c6dd6c28cc4a3e2a/AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fa27377873084c5e2f19998eed2cbbe6/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/06d710fa94ca54d25111e72ff5bf949a/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/475d04f368c03e21a0a4f658881872a1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/9dd912d4a38a2373722b421beee1febe/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/90701d42db23cb8609bf48af0d085393/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/bea989f2c825950825f09cfe614d209c/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/b400f216a83328e2aff7cb4fe3f32814/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fa27377873084c5e2f19998eed2cbbe6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/06d710fa94ca54d25111e72ff5bf949a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/475d04f368c03e21a0a4f658881872a1/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f25fd64c6a9956ea37de750552267c37/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-36:12
-INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-36:12
-INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-42:12
+INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-42:12
+INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-42:12
 	package
 		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:2:5-26
 		INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-36:12
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-42:12
 		INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-36:12
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-42:12
 		INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -82,8 +82,32 @@ MERGED from [com.facebook.react:react-native:0.55.1] /Users/moni/.gradle/caches/
 MERGED from [com.facebook.react:react-native:0.55.1] /Users/moni/.gradle/caches/transforms-1/files-1.1/react-native-0.55.1.aar/bc600c51ff783c391203cf08a1f70e1e/AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:8:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:9:5-84
+	android:required
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:9:58-82
+	android:name
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:9:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:10:5-94
+	android:required
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:10:68-92
+	android:name
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:10:19-67
 application
-ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:7:5-34:19
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:12:5-40:19
 MERGED from [com.facebook.react:react-native:0.55.1] /Users/moni/.gradle/caches/transforms-1/files-1.1/react-native-0.55.1.aar/bc600c51ff783c391203cf08a1f70e1e/AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.react:react-native:0.55.1] /Users/moni/.gradle/caches/transforms-1/files-1.1/react-native-0.55.1.aar/bc600c51ff783c391203cf08a1f70e1e/AndroidManifest.xml:13:5-20
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/moni/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/a450ad36ca739fd7363e415509637447/AndroidManifest.xml:22:5-20
@@ -121,59 +145,63 @@ MERGED from [org.webkit:android-jsc:r174650] /Users/moni/.gradle/caches/transfor
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.0.aar/f5f089ad12541504c6dd6c28cc4a3e2a/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.0.aar/f5f089ad12541504c6dd6c28cc4a3e2a/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:9:7-39
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:14:7-39
 	android:icon
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:10:7-41
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:15:7-41
 	android:allowBackup
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:16:7-34
 	android:theme
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:17:7-38
 	android:name
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:8:7-38
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:13:7-38
 activity#com.chathub.MainActivity
-ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:13:7-22:18
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:18:7-28:18
 	android:label
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:20:9-41
 	android:windowSoftInputMode
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:17:9-51
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:22:9-51
 	android:configChanges
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:16:9-79
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:21:9-79
 	android:name
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:14:9-37
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:18:9-21:25
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:19:9-37
+intent-filter#action:name:android.intent.action.DOWNLOAD_COMPLETE+action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:23:9-27:25
 action#android.intent.action.MAIN
-ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:19:13-65
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:24:13-65
 	android:name
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:19:21-62
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:24:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:20:13-73
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:25:13-73
 	android:name
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:20:23-70
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:25:23-70
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:26:6-70
+	android:name
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:26:14-68
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:23:7-84
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:29:7-84
 	android:name
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:23:17-81
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:29:17-81
 service#io.invertase.firebase.messaging.RNFirebaseMessagingService
-ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:24:9-28:19
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:30:9-34:19
 	android:name
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:24:18-91
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:30:18-91
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:25:13-27:29
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:31:13-33:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:26:17-78
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:32:17-78
 	android:name
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:26:25-75
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:32:25-75
 service#io.invertase.firebase.messaging.RNFirebaseInstanceIdService
-ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:29:9-33:19
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:35:9-39:19
 	android:name
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:29:18-92
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:35:18-92
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:30:13-32:29
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:36:13-38:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:31:17-79
+ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:37:17-79
 	android:name
-		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:31:25-77
+		ADDED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:37:25-77
 uses-sdk
 INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml
@@ -246,12 +274,6 @@ MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/moni/.gradle/caches/tr
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/250d1cecf615284209eb186c7670f4a6/AndroidManifest.xml:2:3-70
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.0.aar/f5f089ad12541504c6dd6c28cc4a3e2a/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.0.aar/f5f089ad12541504c6dd6c28cc4a3e2a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fa27377873084c5e2f19998eed2cbbe6/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fa27377873084c5e2f19998eed2cbbe6/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/06d710fa94ca54d25111e72ff5bf949a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/06d710fa94ca54d25111e72ff5bf949a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/475d04f368c03e21a0a4f658881872a1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/475d04f368c03e21a0a4f658881872a1/AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/9dd912d4a38a2373722b421beee1febe/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/9dd912d4a38a2373722b421beee1febe/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/90701d42db23cb8609bf48af0d085393/AndroidManifest.xml:5:5-7:41
@@ -260,6 +282,12 @@ MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/moni/.gradle/c
 MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/bea989f2c825950825f09cfe614d209c/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/b400f216a83328e2aff7cb4fe3f32814/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/b400f216a83328e2aff7cb4fe3f32814/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fa27377873084c5e2f19998eed2cbbe6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fa27377873084c5e2f19998eed2cbbe6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/06d710fa94ca54d25111e72ff5bf949a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/06d710fa94ca54d25111e72ff5bf949a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/475d04f368c03e21a0a4f658881872a1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/475d04f368c03e21a0a4f658881872a1/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f25fd64c6a9956ea37de750552267c37/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f25fd64c6a9956ea37de750552267c37/AndroidManifest.xml:20:5-44
 INJECTED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml
@@ -456,9 +484,5 @@ ADDED from [com.google.android.gms:play-services-basement:15.0.0] /Users/moni/.g
 		ADDED from [com.google.android.gms:play-services-basement:15.0.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/0d087e2feb36aeacc6b12ce39532e873/AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:15.0.0] /Users/moni/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.0.aar/0d087e2feb36aeacc6b12ce39532e873/AndroidManifest.xml:24:13-58
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-36:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-36:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-36:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/src/main/AndroidManifest.xml:1:1-42:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
