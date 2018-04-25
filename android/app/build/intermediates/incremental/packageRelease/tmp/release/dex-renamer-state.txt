@@ -1,0 +1,4 @@
+#Sat Apr 21 22:51:09 PDT 2018
+base.0=/Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/build/intermediates/transforms/dexMerger/release/0
+renamed.0=classes.dex
+path.0=classes.dex

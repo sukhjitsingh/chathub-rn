@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTTrackingAnimatedNode.m \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTTrackingAnimatedNode.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/node_modules/react-native/Libraries/NativeAnimation/RCTNativeAnimatedNodesManager.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/moni/Desktop/workspace/ReactNative-Projects/chathub/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h

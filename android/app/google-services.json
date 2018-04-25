@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "828451351323",
+    "firebase_url": "https://chathub-82780.firebaseio.com",
+    "project_id": "chathub-82780",
+    "storage_bucket": "chathub-82780.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828451351323:android:e75a1db0be2ccc0d",
+        "android_client_info": {
+          "package_name": "com.chathub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828451351323-29psblu4pv4dd5efe890s2nv4iam9dte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chathub",
+            "certificate_hash": "0547d4b01f9eb59001a12ad083e7f2566b9d10fe"
+          }
+        },
+        {
+          "client_id": "828451351323-tijd7c20qsl1m94ckusqbncs0dibgskv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chathub",
+            "certificate_hash": "fb4fb8eb9eb93adb9d797f6302f7e928a704a591"
+          }
+        },
+        {
+          "client_id": "828451351323-csmbbuchun4e82a9nmtpq6ch8rkg1226.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC987NHEc_--L8RzG_Ji03QdPSv6E5L5t8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828451351323-csmbbuchun4e82a9nmtpq6ch8rkg1226.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

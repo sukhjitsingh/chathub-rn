@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/build/intermediates/res/merged/release/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/moni/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/c2f943025f9173667f8cb222f19266d8/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/build/intermediates/res/merged/release/drawable-watch-v20/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/moni/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/c2f943025f9173667f8cb222f19266d8/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/moni/Desktop/workspace/ReactNative-Projects/chathub/android/app/build/intermediates/res/merged/release/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/moni/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/c2f943025f9173667f8cb222f19266d8/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
+    }
+]
