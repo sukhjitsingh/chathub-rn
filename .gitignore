@@ -15,7 +15,7 @@ yarn-error.log
 
 # Android/IntelliJ
 #
-build/**/*
+android/app/build/**/*
 android/.idea/**/*
 android/.gradle/**/*
 local.properties
