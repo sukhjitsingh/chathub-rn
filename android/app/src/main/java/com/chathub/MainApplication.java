@@ -3,16 +3,17 @@ package com.chathub;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.oblador.vectoricons.VectorIconsPackage;
 import co.apptailor.googlesignin.RNGoogleSigninPackage;
+import com.oblador.vectoricons.VectorIconsPackage;
 import io.invertase.firebase.RNFirebasePackage;
+import io.invertase.firebase.auth.RNFirebaseAuthPackage;
+import io.invertase.firebase.firestore.RNFirebaseFirestorePackage;
+import io.invertase.firebase.messaging.RNFirebaseMessagingPackage;
+
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
-import io.invertase.firebase.auth.RNFirebaseAuthPackage;  // Firebase Auth
-import io.invertase.firebase.firestore.RNFirebaseFirestorePackage;
-import io.invertase.firebase.messaging.RNFirebaseMessagingPackage;
 
 import java.util.Arrays;
 import java.util.List;
