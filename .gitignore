@@ -1,9 +1,22 @@
+# OSX
+#
+.DS_Store
+
+# node.js
+#
 node_modules/**/*
-npm-debug.*
+npm-debug.log
+yarn-error.log
 
 # misc
-.DS_Store
+#
 .vscode
+.settings
 
+# Android/IntelliJ
+#
+build/**/*
 android/.idea/**/*
 android/.gradle/**/*
+local.properties
+*.iml
