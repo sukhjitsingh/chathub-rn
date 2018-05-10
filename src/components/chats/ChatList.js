@@ -84,7 +84,7 @@ export default class ChatList extends Component {
   onCollectionUpdate = (querySnapshot) => {
     const chats = [];
     querySnapshot.forEach((doc) => {
-      const { message, createdAt } = doc.data();
+      const { message, createdAt, author } = doc.data();
       console.log("MESSAGE-TEST:", this.state.user)
       const time = timeSince(createdAt)
       chats.push({
@@ -92,6 +92,7 @@ export default class ChatList extends Component {
         doc, // DocumentSnapshot
         message,
         time,
+        author,
       });
     });
     this.setState({
@@ -107,7 +108,8 @@ export default class ChatList extends Component {
   sendMessage() {
     this.ref.add({
       message: this.state.messageInput,
-      createdAt: new Date()
+      createdAt: new Date(),
+      author: this.state.user.name
     });
     this.setState({
       messageInput: '',
@@ -115,6 +117,14 @@ export default class ChatList extends Component {
   }
 
   renderMessage = ({ item }) => {
+    let name =  item.author
+    let avatorIcon = name.charAt(0).toString()
+    if( name != null) {
+      this.avatorIcon = name.charAt(0).toString()
+    } else {
+      this.avatorIcon = ''
+    }
+
     return (
       <View style={{ flex: 1 }}>
 
@@ -122,14 +132,14 @@ export default class ChatList extends Component {
           <Avatar
             small
             rounded
-            title="S"
+            title={avatorIcon}
           />
           <View style={styles.messageContainer}>
             <Text style={styles.message}>
               {item.message}
             </Text>
             <Text>
-              {this.state.user && this.state.user.name}
+              {name}
             </Text>
           </View>
         </View>
@@ -206,5 +216,6 @@ const styles = StyleSheet.create({
     fontFamily: 'Roboto',
     paddingBottom: 10,
     flexWrap: 'wrap',
+    color: 'black'
   }
 });
