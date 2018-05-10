@@ -116,10 +116,62 @@ export default class ChatList extends Component {
     });
   }
 
+  parseMessage(str) {
+    let bold = false, italics = false;
+    let output = [];
+    let text = str.split('').reduce((a, b) => {
+      if (b == '*') {
+        if (bold) {
+          if (a != '') {
+            if (italics)
+              output.push({ text: a, bold: true, italics: true });
+            else
+              output.push({ text: a, bold: true });
+          }
+          bold = false;
+        }
+        else {
+          if (italics)
+            output.push({ text: a, italics: true })
+          else
+            output.push({ text: a })
+          bold = true;
+        }
+        return '';
+      }
+      else if (b == '_') {
+        if (italics) {
+          if (a != '') {
+            if (bold)
+              output.push({ text: a, bold: true, italics: true });
+            else
+              output.push({ text: a, italics: true });
+          }
+          italics = false;
+        }
+        else {
+          if (bold)
+            output.push({ text: a, bold: true })
+          else
+            output.push({ text: a })
+          italics = true;
+        }
+        return '';
+      }
+      else {
+        return a + b;
+      }
+    }, '');
+    if (text != '')
+      output.push({ text: text });
+    console.log(output);
+    return output;
+  }
+
   renderMessage = ({ item }) => {
-    let name =  item.author
+    let name = item.author
     let avatorIcon = name.charAt(0).toString()
-    if( name != null) {
+    if (name != null) {
       this.avatorIcon = name.charAt(0).toString()
     } else {
       this.avatorIcon = ''
